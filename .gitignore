@@ -33,3 +33,6 @@ proguard/
 .gradle/
 build/
 bin/
+
+#settings files
+.setting*

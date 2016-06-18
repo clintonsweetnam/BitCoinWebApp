@@ -3,8 +3,17 @@
 <head>
     <title>Getting Started: Serving Web Content</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="libs/bootstrap/dist/css/bootstrap.min.css"></link>
+    <link rel="stylesheet" type="text/css" href="css/main.css"></link>
 </head>
 <body>
-<h1>Hello World!!</h1>
+	<div th:include="../fragments/navigation :: navigation">...</div>
+
+	<div class="container">
+		<h1>Hello World!!</h1>
+	</div>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
